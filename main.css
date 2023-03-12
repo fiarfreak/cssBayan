@@ -64,7 +64,13 @@ button {
 .accordion-header:hover .icon {
   transform: rotate(45deg);
   opacity: 1;
+  
 }
+.accordion-header:hover h3 {
+  color:darkblue;
+}
+
+
 
 .accordion-content {
   padding: 1rem;
@@ -110,4 +116,8 @@ button:focus img {
 button:focus {
   outline: none;
   box-shadow: none;
+}
+
+button:focus h3{
+  color: darkblue;
 }
