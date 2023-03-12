@@ -86,6 +86,7 @@ button {
 .accordion-item:hover img {
   opacity: 1;
   width: 30vh;
+  height: 30vh;
 }
 
 a {
